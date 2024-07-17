@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+}
+.square:nth-child(1) {
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+    background-color: rgb(255, 141, 80);
+}
+.square:nth-child(2) {
+    z-index: 1;
+    background-color: rgb(110, 85, 255);
+    
+}
+.square:nth-child(3) {
+    top: 130px;
+    left: 130px;
+   z-index: 1;
+    background-color: rgb(57, 126, 255);
+}
